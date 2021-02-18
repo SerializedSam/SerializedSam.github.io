@@ -1,0 +1,1 @@
+Sitemap: /tufte-jekyll/sitemap.xml
