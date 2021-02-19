@@ -1,1 +1,1 @@
-Sitemap: /tufte-jekyll/sitemap.xml
+Sitemap: /sitemap.xml

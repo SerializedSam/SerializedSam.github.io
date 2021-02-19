@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/tufte-jekyll/articles/20/tufte-style-jekyll-blog</loc>
+<loc>/articles/20/tufte-style-jekyll-blog</loc>
 <lastmod>2020-04-13T05:46:04-04:00</lastmod>
 </url>
 <url>
-<loc>/tufte-jekyll/articles/20/Edge-Cases</loc>
+<loc>/articles/20/Edge-Cases</loc>
 <lastmod>2020-04-13T13:04:01-04:00</lastmod>
 </url>
 <url>
-<loc>/tufte-jekyll/</loc>
+<loc>/</loc>
 </url>
 <url>
-<loc>/tufte-jekyll/page/</loc>
+<loc>/page/</loc>
 </url>
 <url>
-<loc>/tufte-jekyll/about/</loc>
+<loc>/about/</loc>
 </url>
 </urlset>
