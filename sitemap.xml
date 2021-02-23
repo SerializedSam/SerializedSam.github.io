@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/articles/20/tufte-style-jekyll-blog</loc>
-<lastmod>2020-04-13T05:46:04-04:00</lastmod>
-</url>
-<url>
 <loc>/articles/21/What-to-pack-in-your-field-kit</loc>
 <lastmod>2021-02-14T12:04:01-05:00</lastmod>
 </url>
@@ -19,9 +15,6 @@
 </url>
 <url>
 <loc>/pages/about/</loc>
-</url>
-<url>
-<loc>/tag/test</loc>
 </url>
 <url>
 <loc>/tag/gear</loc>
