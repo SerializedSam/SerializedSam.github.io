@@ -5,15 +5,106 @@
     <description>A blog dedicated to civil &amp; structual musings</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Feb 2021 15:27:33 -0500</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2021 15:27:33 -0500</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2021 12:42:17 -0500</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2021 12:42:17 -0500</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Eight Tips to Improve Readability in Excel</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’ve heard it said more than once&lt;/span&gt;  - Excel is the world’s most widely used programming environment.&lt;/p&gt;
+
+&lt;p&gt;This certainly matches with my experience. Everyone has excel, it can do math, and it is pretty easy to format things to print on the page.&lt;/p&gt;
+
+&lt;p&gt;Personally, I think Excel is limited at best as an engineering tool. The lack of unit awareness and difficulty in creating “user commentary” are some of my key concerns about developing calculations with this tool.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, most of us will end up creating calculations in Excel at some point. So below are some of the simple steps I recommend for creating Excel calculations which are easier to read, update, QC, and re-use.&lt;/p&gt;
+
+&lt;h1 id=&quot;label-things-clearly&quot;&gt;Label things clearly&lt;/h1&gt;
+&lt;p&gt;Show clearly what is an input, what’s a calculation, etc. using headings or other means.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/01-label-things-clearly.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;use-cell-styles&quot;&gt;Use cell styles&lt;/h1&gt;
+&lt;p&gt;Cell styles help to visually differentiate what is going on with your sheet. Excel conveniently has many built in styles &amp;amp; labels to make it easier to consistently select the same styles for the same type of information. You can also modify these if desired.&lt;/p&gt;
+
+&lt;p&gt;Here I’ve added a heading style, input style, and explanatory style. We can see that this already helps to differentiate what I’m communicating about these values&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/02-cell-styles.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;name-variables---use-unicode-and-subscripts&quot;&gt;Name variables - use Unicode and subscripts&lt;/h1&gt;
+&lt;p&gt;Say we want to perform a calculation using the unit weight of concrete. By naming our cell, we can make our calculations much clearer.&lt;/p&gt;
+
+&lt;p&gt;Using Unicode also makes our names more succinct, and lets them better match the code / design references. If you put the symbol to the left of the value, when you right click to name the cell it will automatically use the values in the adjacent cell.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.compart.com/en/unicode/&quot;&gt;compart&lt;/a&gt; is a simple way to find relevant Unicode characters - you can search by spelling things out, like “gamma”, and then copy over the relevant symbol to excel.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/03-name variables.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;‍‍&lt;/p&gt;
+
+&lt;h1 id=&quot;use-formulatext-to-display-equations&quot;&gt;Use =FORMULATEXT() to display equations&lt;/h1&gt;
+&lt;p&gt;A huge benefit of using Unicode to name variables is that your formulas will now be human readable, even when printed and cell labels are not available.&lt;/p&gt;
+
+&lt;p&gt;I strongly recommend using FORMULATEXT vs writing out what an equation is supposed to be by hand, because with the latter it is possible to correct what is displayed, but not the actual math being performed.&lt;/p&gt;
+
+&lt;h1 id=&quot;apply-number-formats-appropriately&quot;&gt;Apply number formats appropriately&lt;/h1&gt;
+&lt;p&gt;Allow the thousands separator, and adjust the number of significant figures as appropriate for your calculation.‍&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/04-apply-number formats.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;‍‍&lt;/p&gt;
+
+&lt;h1 id=&quot;include-figures&quot;&gt;Include figures&lt;/h1&gt;
+&lt;p&gt;There are a few ways to approach creating figures in Excel.&lt;/p&gt;
+
+&lt;p&gt;One method I have used is creating figures in Revit, often just using filled regions. I’ll rename dimension strings in Revit to match the symbols in Excel. You can’t do subscripts in Revit’s dimension strings, so the formatting won’t match exactly.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/05-revit-sketch.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;‍‍&lt;/p&gt;
+
+&lt;p&gt;Another possible method is by producing graphs in Excel itself. This is something I’ve seen done more than I have actually performed myself, but it would look something like what I’m showing below. The big thing I haven’t worked out with this method is how to nicely label the dimensions / variables in the graphic I’ve created.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/06-excel-sketch.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;‍‍&lt;/p&gt;
+
+&lt;h1 id=&quot;use-groups&quot;&gt;Use groups&lt;/h1&gt;
+&lt;p&gt;Sometimes in Excel it can be helpful to break more complicated logic down into smaller steps. However, these smaller steps are not always appropriate / relevant to include for the printed document.&lt;/p&gt;
+
+&lt;p&gt;One way I have found to manage these steps is to use the Data → Group function in excel. This allows you to “group” a number of rows or columns together, and quickly collapse or expand them as needed. I’ve used this to create more detailed logic in the appropriate place in a spreadsheet, and then collapse. This helps with future use / reuse because all the logic is one place, and fits into the normal “flow” of the spreadsheet, but can still be hidden when it isn’t relevant to include.&lt;/p&gt;
+
+&lt;p&gt;I’ve used this is for looking up the required factor of safety for sliding based on the structure information and the EM 1110-2-2100 Tables 3-2 and 3-3. As you can see below, I’ve reproduced the information from Tables 3-2  and 3-3. I use user inputs of the structure information to perform a lookup and return the minimum FS.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/07-groups-1.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;‍‍
+That minus symbol in red is the group, and when collapsed all that is visible is the relevant output and table reference.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/08-groups-2.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;break-things-up-across-sheets&quot;&gt;Break things up across sheets&lt;/h1&gt;
+&lt;p&gt;Another general practice I’ve adopted in excel is to try and keep information on a single sheet to what will fit on a single page.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/09-across-sheets.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;I’ve found that if a calculation is getting longer than a single page, it is helpful to break it up into parts and use the sheet names to help make the calculation easier to navigate.&lt;/p&gt;
+
+&lt;p&gt;This also helps avoid producing spreadsheets which are very large and have inputs which can be missed if you don’t scroll over or down far enough to see relevant inputs. I’ll often have a summary tab, an inputs tab, sometimes a separate elevation input tab, and then relevant calculation tabs as required.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Feb 2021 16:48:01 -0500</pubDate>
+        <link>/articles/21/Improve-readability-in-excel</link>
+        <guid isPermaLink="true">/articles/21/Improve-readability-in-excel</guid>
+        
+        <category>excel</category>
+        
+        <category>calculations</category>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>What to pack in your field kit</title>
         <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;A well-packed field kit is critical&lt;/span&gt;  to having a safe, comfortable, efficient, and non-embarrassing field experience. The first time I had to pack for an inspection I was running around like a chicken with its head cut off. In the time since then, I’ve accumulated a field kit that I can now basically grab and go for most inspections. Below are some of the items I’ve added to my field kit over time.&lt;/p&gt;
 
-&lt;h2&gt;Stuff for taking notes&lt;/h2&gt;
+&lt;h2 id=&quot;stuff-for-taking-notes&quot;&gt;Stuff for taking notes&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Clipboard.&lt;/strong&gt; Can be 11x17 sized or 8 1/2x11 sized. Get the box type, which will allow you to keep pens, drawings, and extra paper inside.&lt;/p&gt;
 
@@ -29,7 +120,7 @@
 
 &lt;p&gt;&lt;strong&gt;Photo log.&lt;/strong&gt; No matter how many times I’m convinced I’ll be able to reconstruct what I need from my pictures and my notes, I usually wish I had a detailed photolog explaining all my pictures.&lt;/p&gt;
 
-&lt;h2&gt;Stuff for in the field&lt;/h2&gt;
+&lt;h2 id=&quot;stuff-for-in-the-field&quot;&gt;Stuff for in the field&lt;/h2&gt;
 &lt;p&gt;I’m skipping over all the typical PPE, but yes, bring your PPE
 Gloves. Some people don’t count them as part of standard PPE, but in IMO you should always have a pair.&lt;/p&gt;
 
@@ -60,7 +151,7 @@ A solid bag. One with pockets, pouches, or some other form of internal organizat
 
 &lt;p&gt;&lt;strong&gt;Knee pads&lt;/strong&gt; or kneeling mat&lt;/p&gt;
 
-&lt;h2&gt;Bio needs&lt;/h2&gt;
+&lt;h2 id=&quot;bio-needs&quot;&gt;Bio needs&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Water&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;DripDrop ORS&lt;/strong&gt;&lt;/p&gt;
@@ -72,7 +163,8 @@ A solid bag. One with pockets, pouches, or some other form of internal organizat
 &lt;p&gt;&lt;strong&gt;Field clothes.&lt;/strong&gt; I keep jeans, a long-sleeved shirt, jacket, and extra socks in my field kit at all times, so if I’m in business casual at the office and get an urgent call I can easily get geared up.&lt;/p&gt;
 
 &lt;p&gt;If you’re going to be somewhere remote, &lt;strong&gt;gear for relieving yourself.&lt;/strong&gt; TP, trowel, hand sanitizer or wipes. If you could use one, a pStyle or similar stand-to-pee device.&lt;/p&gt;
-&lt;h2&gt; If it is going to be cold &lt;/h2&gt;
+
+&lt;h2 id=&quot;if-it-is-going-to-be-cold&quot;&gt;If it is going to be cold&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Helmet liner&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Neck warmer / turtle fur&lt;/strong&gt;&lt;/p&gt;
@@ -80,13 +172,16 @@ A solid bag. One with pockets, pouches, or some other form of internal organizat
 &lt;p&gt;&lt;strong&gt;Hand / foot warmers.&lt;/strong&gt; There are fancy battery powered ones, I usually just use the disposable chemical ones.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Jacket.&lt;/strong&gt; I keep a separate work jacket with my field gear so my nice ones don’t get trashed on job sites.&lt;/p&gt;
-&lt;h2&gt;If it is going to be wet / rainy&lt;/h2&gt;
+
+&lt;h2 id=&quot;if-it-is-going-to-be-wet--rainy&quot;&gt;If it is going to be wet / rainy&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Foul weather gear&lt;/strong&gt; / bibs / waders&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Extra changes of clothes&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Wear proper insulating materials, don’t be wearing cotton underneath your bibs.&lt;/p&gt;
-&lt;h2&gt;Stuff for storing the whole damn lot&lt;/h2&gt;
+
+&lt;h2 id=&quot;stuff-for-storing-the-whole-damn-lot&quot;&gt;Stuff for storing the whole damn lot&lt;/h2&gt;
+
 &lt;p&gt;I have what I believe is a Husky “stackable storage bin” that I keep my field gear in. It is just the right size to fit in the trunk of my hatchback, and holds my field bag, steel toes, hardhat, jacket, and fall protection. (If you store your own fall protection, make sure it is getting turned in on the prescribed basis for a qualified inspection.)&lt;/p&gt;
 
 &lt;p&gt;The beauty of having this one bin that hold all my kit is being able to move it easily between my office, house, car, and hotel. I can drop the whole thing on a hotel trolley and bring it up to my room, or just hold it and carry it wherever it needs to go.&lt;/p&gt;
