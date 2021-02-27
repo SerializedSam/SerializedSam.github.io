@@ -48,20 +48,20 @@
   <link rel="alternate" type="application/rss+xml" title="Serialized Civil" href="/feed.xml" />
   <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Serialized Civil" />
   <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Eight Tips to Improve Readability in Excel | Serialized Civil</title>
+<title>Improve Engineering Readability in Excel | Serialized Civil</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Eight Tips to Improve Readability in Excel" />
+<meta property="og:title" content="Improve Engineering Readability in Excel" />
 <meta name="author" content="Sam Hall" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I’ve heard it said more than once - Excel is the world’s most widely used programming environment. This certainly matches with my experience. Everyone has excel, it can do math, and it is pretty easy to format things to print on the page. Personally, I think Excel is limited at best as an engineering tool. The lack of unit awareness and difficulty in creating “user commentary” are some of my key concerns about developing calculations with this tool. Nevertheless, most of us will end up creating calculations in Excel at some point. So below are some of the simple steps I recommend for creating Excel calculations which are easier to read, update, QC, and re-use. Label things clearly Show clearly what is an input, what’s a calculation, etc. using headings or other means. Use cell styles Cell styles help to visually differentiate what is going on with your sheet. Excel conveniently has many built in styles &amp; labels to make it easier to consistently select the same styles for the same type of information. You can also modify these if desired. Here I’ve added a heading style, input style, and explanatory style. We can see that this already helps to differentiate what I’m communicating about these values Name variables - use Unicode and subscripts Say we want to perform a calculation using the unit weight of concrete. By naming our cell, we can make our calculations much clearer. Using Unicode also makes our names more succinct, and lets them better match the code / design references. If you put the symbol to the left of the value, when you right click to name the cell it will automatically use the values in the adjacent cell. compart is a simple way to find relevant Unicode characters - you can search by spelling things out, like “gamma”, and then copy over the relevant symbol to excel. ‍‍ Use =FORMULATEXT() to display equations A huge benefit of using Unicode to name variables is that your formulas will now be human readable, even when printed and cell labels are not available. I strongly recommend using FORMULATEXT vs writing out what an equation is supposed to be by hand, because with the latter it is possible to correct what is displayed, but not the actual math being performed. Apply number formats appropriately Allow the thousands separator, and adjust the number of significant figures as appropriate for your calculation.‍ ‍‍ Include figures There are a few ways to approach creating figures in Excel. One method I have used is creating figures in Revit, often just using filled regions. I’ll rename dimension strings in Revit to match the symbols in Excel. You can’t do subscripts in Revit’s dimension strings, so the formatting won’t match exactly. ‍‍ Another possible method is by producing graphs in Excel itself. This is something I’ve seen done more than I have actually performed myself, but it would look something like what I’m showing below. The big thing I haven’t worked out with this method is how to nicely label the dimensions / variables in the graphic I’ve created. ‍‍ Use groups Sometimes in Excel it can be helpful to break more complicated logic down into smaller steps. However, these smaller steps are not always appropriate / relevant to include for the printed document. One way I have found to manage these steps is to use the Data → Group function in excel. This allows you to “group” a number of rows or columns together, and quickly collapse or expand them as needed. I’ve used this to create more detailed logic in the appropriate place in a spreadsheet, and then collapse. This helps with future use / reuse because all the logic is one place, and fits into the normal “flow” of the spreadsheet, but can still be hidden when it isn’t relevant to include. I’ve used this is for looking up the required factor of safety for sliding based on the structure information and the EM 1110-2-2100 Tables 3-2 and 3-3. As you can see below, I’ve reproduced the information from Tables 3-2  and 3-3. I use user inputs of the structure information to perform a lookup and return the minimum FS. ‍‍ That minus symbol in red is the group, and when collapsed all that is visible is the relevant output and table reference. Break things up across sheets Another general practice I’ve adopted in excel is to try and keep information on a single sheet to what will fit on a single page. I’ve found that if a calculation is getting longer than a single page, it is helpful to break it up into parts and use the sheet names to help make the calculation easier to navigate. This also helps avoid producing spreadsheets which are very large and have inputs which can be missed if you don’t scroll over or down far enough to see relevant inputs. I’ll often have a summary tab, an inputs tab, sometimes a separate elevation input tab, and then relevant calculation tabs as required." />
-<meta property="og:description" content="I’ve heard it said more than once - Excel is the world’s most widely used programming environment. This certainly matches with my experience. Everyone has excel, it can do math, and it is pretty easy to format things to print on the page. Personally, I think Excel is limited at best as an engineering tool. The lack of unit awareness and difficulty in creating “user commentary” are some of my key concerns about developing calculations with this tool. Nevertheless, most of us will end up creating calculations in Excel at some point. So below are some of the simple steps I recommend for creating Excel calculations which are easier to read, update, QC, and re-use. Label things clearly Show clearly what is an input, what’s a calculation, etc. using headings or other means. Use cell styles Cell styles help to visually differentiate what is going on with your sheet. Excel conveniently has many built in styles &amp; labels to make it easier to consistently select the same styles for the same type of information. You can also modify these if desired. Here I’ve added a heading style, input style, and explanatory style. We can see that this already helps to differentiate what I’m communicating about these values Name variables - use Unicode and subscripts Say we want to perform a calculation using the unit weight of concrete. By naming our cell, we can make our calculations much clearer. Using Unicode also makes our names more succinct, and lets them better match the code / design references. If you put the symbol to the left of the value, when you right click to name the cell it will automatically use the values in the adjacent cell. compart is a simple way to find relevant Unicode characters - you can search by spelling things out, like “gamma”, and then copy over the relevant symbol to excel. ‍‍ Use =FORMULATEXT() to display equations A huge benefit of using Unicode to name variables is that your formulas will now be human readable, even when printed and cell labels are not available. I strongly recommend using FORMULATEXT vs writing out what an equation is supposed to be by hand, because with the latter it is possible to correct what is displayed, but not the actual math being performed. Apply number formats appropriately Allow the thousands separator, and adjust the number of significant figures as appropriate for your calculation.‍ ‍‍ Include figures There are a few ways to approach creating figures in Excel. One method I have used is creating figures in Revit, often just using filled regions. I’ll rename dimension strings in Revit to match the symbols in Excel. You can’t do subscripts in Revit’s dimension strings, so the formatting won’t match exactly. ‍‍ Another possible method is by producing graphs in Excel itself. This is something I’ve seen done more than I have actually performed myself, but it would look something like what I’m showing below. The big thing I haven’t worked out with this method is how to nicely label the dimensions / variables in the graphic I’ve created. ‍‍ Use groups Sometimes in Excel it can be helpful to break more complicated logic down into smaller steps. However, these smaller steps are not always appropriate / relevant to include for the printed document. One way I have found to manage these steps is to use the Data → Group function in excel. This allows you to “group” a number of rows or columns together, and quickly collapse or expand them as needed. I’ve used this to create more detailed logic in the appropriate place in a spreadsheet, and then collapse. This helps with future use / reuse because all the logic is one place, and fits into the normal “flow” of the spreadsheet, but can still be hidden when it isn’t relevant to include. I’ve used this is for looking up the required factor of safety for sliding based on the structure information and the EM 1110-2-2100 Tables 3-2 and 3-3. As you can see below, I’ve reproduced the information from Tables 3-2  and 3-3. I use user inputs of the structure information to perform a lookup and return the minimum FS. ‍‍ That minus symbol in red is the group, and when collapsed all that is visible is the relevant output and table reference. Break things up across sheets Another general practice I’ve adopted in excel is to try and keep information on a single sheet to what will fit on a single page. I’ve found that if a calculation is getting longer than a single page, it is helpful to break it up into parts and use the sheet names to help make the calculation easier to navigate. This also helps avoid producing spreadsheets which are very large and have inputs which can be missed if you don’t scroll over or down far enough to see relevant inputs. I’ll often have a summary tab, an inputs tab, sometimes a separate elevation input tab, and then relevant calculation tabs as required." />
+<meta name="description" content="A guide to improving readability in excel, geared towards civil structural uses - including symbols, units, and more." />
+<meta property="og:description" content="A guide to improving readability in excel, geared towards civil structural uses - including symbols, units, and more." />
 <meta property="og:site_name" content="Serialized Civil" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-02-24T16:48:01-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Eight Tips to Improve Readability in Excel" />
+<meta property="twitter:title" content="Improve Engineering Readability in Excel" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Sam Hall"},"url":"/articles/21/Improve-readability-in-excel","headline":"Eight Tips to Improve Readability in Excel","dateModified":"2021-02-24T16:48:01-05:00","datePublished":"2021-02-24T16:48:01-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/articles/21/Improve-readability-in-excel"},"description":"I’ve heard it said more than once - Excel is the world’s most widely used programming environment. This certainly matches with my experience. Everyone has excel, it can do math, and it is pretty easy to format things to print on the page. Personally, I think Excel is limited at best as an engineering tool. The lack of unit awareness and difficulty in creating “user commentary” are some of my key concerns about developing calculations with this tool. Nevertheless, most of us will end up creating calculations in Excel at some point. So below are some of the simple steps I recommend for creating Excel calculations which are easier to read, update, QC, and re-use. Label things clearly Show clearly what is an input, what’s a calculation, etc. using headings or other means. Use cell styles Cell styles help to visually differentiate what is going on with your sheet. Excel conveniently has many built in styles &amp; labels to make it easier to consistently select the same styles for the same type of information. You can also modify these if desired. Here I’ve added a heading style, input style, and explanatory style. We can see that this already helps to differentiate what I’m communicating about these values Name variables - use Unicode and subscripts Say we want to perform a calculation using the unit weight of concrete. By naming our cell, we can make our calculations much clearer. Using Unicode also makes our names more succinct, and lets them better match the code / design references. If you put the symbol to the left of the value, when you right click to name the cell it will automatically use the values in the adjacent cell. compart is a simple way to find relevant Unicode characters - you can search by spelling things out, like “gamma”, and then copy over the relevant symbol to excel. ‍‍ Use =FORMULATEXT() to display equations A huge benefit of using Unicode to name variables is that your formulas will now be human readable, even when printed and cell labels are not available. I strongly recommend using FORMULATEXT vs writing out what an equation is supposed to be by hand, because with the latter it is possible to correct what is displayed, but not the actual math being performed. Apply number formats appropriately Allow the thousands separator, and adjust the number of significant figures as appropriate for your calculation.‍ ‍‍ Include figures There are a few ways to approach creating figures in Excel. One method I have used is creating figures in Revit, often just using filled regions. I’ll rename dimension strings in Revit to match the symbols in Excel. You can’t do subscripts in Revit’s dimension strings, so the formatting won’t match exactly. ‍‍ Another possible method is by producing graphs in Excel itself. This is something I’ve seen done more than I have actually performed myself, but it would look something like what I’m showing below. The big thing I haven’t worked out with this method is how to nicely label the dimensions / variables in the graphic I’ve created. ‍‍ Use groups Sometimes in Excel it can be helpful to break more complicated logic down into smaller steps. However, these smaller steps are not always appropriate / relevant to include for the printed document. One way I have found to manage these steps is to use the Data → Group function in excel. This allows you to “group” a number of rows or columns together, and quickly collapse or expand them as needed. I’ve used this to create more detailed logic in the appropriate place in a spreadsheet, and then collapse. This helps with future use / reuse because all the logic is one place, and fits into the normal “flow” of the spreadsheet, but can still be hidden when it isn’t relevant to include. I’ve used this is for looking up the required factor of safety for sliding based on the structure information and the EM 1110-2-2100 Tables 3-2 and 3-3. As you can see below, I’ve reproduced the information from Tables 3-2  and 3-3. I use user inputs of the structure information to perform a lookup and return the minimum FS. ‍‍ That minus symbol in red is the group, and when collapsed all that is visible is the relevant output and table reference. Break things up across sheets Another general practice I’ve adopted in excel is to try and keep information on a single sheet to what will fit on a single page. I’ve found that if a calculation is getting longer than a single page, it is helpful to break it up into parts and use the sheet names to help make the calculation easier to navigate. This also helps avoid producing spreadsheets which are very large and have inputs which can be missed if you don’t scroll over or down far enough to see relevant inputs. I’ll often have a summary tab, an inputs tab, sometimes a separate elevation input tab, and then relevant calculation tabs as required.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Sam Hall"},"url":"/articles/21/Improve-readability-in-excel","headline":"Improve Engineering Readability in Excel","dateModified":"2021-02-24T16:48:01-05:00","datePublished":"2021-02-24T16:48:01-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/articles/21/Improve-readability-in-excel"},"description":"A guide to improving readability in excel, geared towards civil structural uses - including symbols, units, and more.","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -79,62 +79,70 @@
   <meta name="msapplication-config" content="/assets/img/browserconfig.xml">
   <meta name="theme-color" content="#fffff8">
 
+  <!-- Script for Jekyll simple search -->
+  <script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
+
 </head>
 
-  <body>
+  <body class="full-width">
     <!--- Header and nav template site-wide -->
 <header>
     <nav class="group">
-	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
-	
-		
-  	
-		
-		    
-		      <a href="/">blog</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/pages/email%20list/">email list</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/pages/archive/">Archive</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/pages/about/">About</a>
-		    
-	    
-  	
-		
-  	
-		
-  	
-		
-  	
-		
-  	
-		
-  	
-		
-  	
-		
-  	
-		
-  	
-	</nav>
-	<!-- <script async src="https://cse.google.com/cse.js?cx=9216789fed915e10a"></script>
-	<div class="gcse-search" style="width: 40em;"></div> -->
+    <a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+    
+        
+      
+        
+            
+              <a href="/">blog</a>
+            
+        
+      
+        
+            
+              <a href="/pages/email%20list/">email list</a>
+            
+        
+      
+        
+            
+              <a href="/pages/archive/">Archive</a>
+            
+        
+      
+        
+            
+              <a href="/pages/about/">About</a>
+            
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      <div id="search">
+        <input type="text" id="search-input" placeholder="search posts..">
+        <br/>
+        <div id="results-container"></div>
+      </div>
+    </nav>
 </header>
-    <article class="group">
-      <h1>Eight Tips to Improve Readability in Excel</h1>
+    <article>
+      <h1>Improve Engineering Readability in Excel</h1>
 <p class="subtitle">February 24, 2021
 
   
@@ -229,7 +237,7 @@ That minus symbol in red is the group, and when collapsed all that is visible is
 
 
     </article>
-    <span class="print-footer">Eight Tips to Improve Readability in Excel - February 24, 2021 - Sam Hall</span>
+    <span class="print-footer">Improve Engineering Readability in Excel - February 24, 2021 - Sam Hall</span>
     <footer>
   <hr class="slender">
   <ul class="footer-links">
@@ -253,5 +261,16 @@ That minus symbol in red is the group, and when collapsed all that is visible is
 <span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
 </div>  
 </footer>
+    <script>
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false
+      })
+      </script>
   </body>
 </html>

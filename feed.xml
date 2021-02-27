@@ -5,12 +5,12 @@
     <description>A blog dedicated to civil &amp; structual musings</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Feb 2021 15:00:27 -0500</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2021 15:00:27 -0500</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 22:35:13 -0500</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 22:35:13 -0500</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Eight Tips to Improve Readability in Excel</title>
+        <title>Improve Engineering Readability in Excel</title>
         <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’ve heard it said more than once&lt;/span&gt;  - Excel is the world’s most widely used programming environment.&lt;/p&gt;
 
 &lt;p&gt;This certainly matches with my experience. Everyone has excel, it can do math, and it is pretty easy to format things to print on the page.&lt;/p&gt;
