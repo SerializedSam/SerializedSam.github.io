@@ -5,12 +5,70 @@
     <description>A blog dedicated to civil &amp; structual musings</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Feb 2021 22:35:13 -0500</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 22:35:13 -0500</lastBuildDate>
+    <pubDate>Sat, 27 Feb 2021 19:14:03 -0500</pubDate>
+    <lastBuildDate>Sat, 27 Feb 2021 19:14:03 -0500</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Improve Engineering Readability in Excel</title>
+        <title>Understanding LRFD</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;LRFD is a fundamental part&lt;/span&gt;  of modern structural design. Understanding what LRFD is, and why it was developed, can help you to have a deeper and more intuitive understanding of every part of the design process.&lt;/p&gt;
+
+&lt;p&gt;In this article, I’m going to move from the basic definition of LRFD into the statistical underpinnings of the methodlogy.&lt;/p&gt;
+
+&lt;p&gt;LRFD stands for &lt;strong&gt;L&lt;/strong&gt;oad and &lt;strong&gt;R&lt;/strong&gt;esistance &lt;strong&gt;F&lt;/strong&gt;actored &lt;strong&gt;D&lt;/strong&gt;esign. So let’s get started by examining &lt;strong&gt;load&lt;/strong&gt; and &lt;strong&gt;resistance!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;load-and-resistance&quot;&gt;Load and Resistance&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Load&lt;/strong&gt; is probably the most self-explanatory part. When we’re designing a structural element, we are going to apply some &lt;strong&gt;load&lt;/strong&gt; to it - like the self weight of a beam, or the concrete slab, office furntiure, and people who will be walking around above a beam.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resistance&lt;/strong&gt; literally means “the ability not to be affected by something, especially adversely”. In the world of structural engineering, when we talk about the &lt;strong&gt;resistance&lt;/strong&gt; of an element, we mean its ability to stand up to the load we’re going to apply.&lt;/p&gt;
+
+&lt;p&gt;A quick visualization: imagine we have a paperweight we want to place on our desk. Also on our desk we have a house of cards, and a lucky brick.&lt;/p&gt;
+
+&lt;p&gt;The paperweight is our &lt;strong&gt;load&lt;/strong&gt;. We can easily imagine the house of cards collapsing under the paperweight; it has inadequate &lt;strong&gt;resistance&lt;/strong&gt;. The brick will easily support the paperweight; it has adequate &lt;strong&gt;resistance&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mathmatically, we put the &lt;strong&gt;load&lt;/strong&gt; over the &lt;strong&gt;resitance&lt;/strong&gt; and call this ratio the utilization.&lt;/p&gt;
+
+&lt;p&gt;A utilizattion less than one (u&amp;lt;1) means the element has capacity to support the load. A utilization greater than 1 (u&amp;gt;1) means the element’s capacity is less than the load applied, and we will see some type of failure.&lt;/p&gt;
+
+&lt;p&gt;We can look at the utilizations from our paperweight example like this:&lt;/p&gt;
+
+\[{paperweight \over brick} &amp;lt; 1 &amp;lt; {paperweight \over house-of-cards}\]
+
+&lt;p&gt;Now that we have a handle on &lt;strong&gt;loads&lt;/strong&gt; and &lt;strong&gt;resistance&lt;/strong&gt;, let’s take a look at &lt;strong&gt;factors.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;factored-design&quot;&gt;Factored Design&lt;/h1&gt;
+
+&lt;p&gt;Now we can talk about the &lt;strong&gt;factors&lt;/strong&gt; in LRFD.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;factors&lt;/strong&gt; used in LRFD are applied to both the &lt;strong&gt;loads&lt;/strong&gt; and the &lt;strong&gt;resistance&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We apply &lt;strong&gt;factors&lt;/strong&gt; to account for the fact that we don’t &lt;em&gt;precisely&lt;/em&gt; know the &lt;strong&gt;loads&lt;/strong&gt; that will be applied or the &lt;strong&gt;resistance&lt;/strong&gt; our element will have.&lt;/p&gt;
+
+&lt;p&gt;For example, our paperweight may weigh a bit less than it is supposed too, or a bit more.&lt;/p&gt;
+
+&lt;p&gt;To account for the variability in the &lt;strong&gt;loads&lt;/strong&gt;, we apply a &lt;strong&gt;factor&lt;/strong&gt; to adjust them. We use a factor that produces a worse &lt;em&gt;effect&lt;/em&gt; on the structure. This can mean increasing the &lt;strong&gt;loads&lt;/strong&gt;, or decreasing them. For example, we might increase a snow load, because more snow on the beam will be worse. But we might actually decrease the dead load when we’re looking at wind load, since the dead load will help resist the uplfit caused by the wind.&lt;/p&gt;
+
+&lt;p&gt;Just as the paperweight may be heaveir or lighter than the design weight, our spaghetti noodle may be a bit thicker than normal, or a bit thinner. Our brick may be very solid, or it might have a chipped corner.&lt;/p&gt;
+
+&lt;p&gt;To account for the variaiblity in the &lt;strong&gt;resitance&lt;/strong&gt;, we apply a &lt;strong&gt;factor&lt;/strong&gt; to adjust the resistane of a given element. The &lt;strong&gt;resistance factor&lt;/strong&gt; is &lt;em&gt;always&lt;/em&gt; less than one (ɸ&amp;lt;1), because we always want to use a &lt;strong&gt;resistance&lt;/strong&gt; on the lower side of what the element will have.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 27 Feb 2021 12:04:01 -0500</pubDate>
+        <link>/articles/21/what-is-lrfd</link>
+        <guid isPermaLink="true">/articles/21/what-is-lrfd</guid>
+        
+        <category>calculations</category>
+        
+        <category>fundamentals</category>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Eight Tips for Better Engineering Calculations in Excel</title>
         <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’ve heard it said more than once&lt;/span&gt;  - Excel is the world’s most widely used programming environment.&lt;/p&gt;
 
 &lt;p&gt;This certainly matches with my experience. Everyone has excel, it can do math, and it is pretty easy to format things to print on the page.&lt;/p&gt;
@@ -22,14 +80,14 @@
 &lt;h2 id=&quot;label-things-clearly&quot;&gt;Label things clearly&lt;/h2&gt;
 &lt;p&gt;Show clearly what is an input, what’s a calculation, etc. using headings or other means.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/01-label-things-clearly.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/01-label-things-clearly.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;screenshot from excel showing labels applied to the left of user inputs&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;use-cell-styles&quot;&gt;Use cell styles&lt;/h2&gt;
 &lt;p&gt;Cell styles help to visually differentiate what is going on with your sheet. Excel conveniently has many built in styles &amp;amp; labels to make it easier to consistently select the same styles for the same type of information. You can also modify these if desired.&lt;/p&gt;
 
 &lt;p&gt;Here I’ve added a heading style, input style, and explanatory style. We can see that this already helps to differentiate what I’m communicating about these values&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/02-cell-styles.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/02-cell-styles.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;screenshot from excel showing cell styles applied&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;name-variables---use-unicode-and-subscripts&quot;&gt;Name variables - use Unicode and subscripts&lt;/h2&gt;
 &lt;p&gt;Say we want to perform a calculation using the unit weight of concrete. By naming our cell, we can make our calculations much clearer.&lt;/p&gt;
@@ -38,7 +96,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.compart.com/en/unicode/&quot;&gt;compart&lt;/a&gt; is a simple way to find relevant Unicode characters - you can search by spelling things out, like “gamma”, and then copy over the relevant symbol to excel.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/03-name variables.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/03-name variables.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;screenshot from excel showing unicode variable names and subscripts&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;‍‍&lt;/p&gt;
 
 &lt;h2 id=&quot;use-formulatext-to-display-equations&quot;&gt;Use =FORMULATEXT() to display equations&lt;/h2&gt;
@@ -49,7 +107,7 @@
 &lt;h2 id=&quot;apply-number-formats-appropriately&quot;&gt;Apply number formats appropriately&lt;/h2&gt;
 &lt;p&gt;Allow the thousands separator, and adjust the number of significant figures as appropriate for your calculation.‍&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/04-apply-number formats.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/04-apply-number formats.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;screenshot from excel showing formulas and number formatting&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;‍‍&lt;/p&gt;
 
 &lt;h2 id=&quot;include-figures&quot;&gt;Include figures&lt;/h2&gt;
@@ -57,12 +115,12 @@
 
 &lt;p&gt;One method I have used is creating figures in Revit, often just using filled regions. I’ll rename dimension strings in Revit to match the symbols in Excel. You can’t do subscripts in Revit’s dimension strings, so the formatting won’t match exactly.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/05-revit-sketch.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/05-revit-sketch.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;screenshot from Revit showing a retaining wall with soil and water loading&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;‍‍&lt;/p&gt;
 
 &lt;p&gt;Another possible method is by producing graphs in Excel itself. This is something I’ve seen done more than I have actually performed myself, but it would look something like what I’m showing below. The big thing I haven’t worked out with this method is how to nicely label the dimensions / variables in the graphic I’ve created.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/06-excel-sketch.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/06-excel-sketch.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;screenshot from excel showing a table with x-y coordinates used to generate a retaining wall section in an excel graph&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;‍‍&lt;/p&gt;
 
 &lt;h2 id=&quot;use-groups&quot;&gt;Use groups&lt;/h2&gt;
@@ -76,12 +134,12 @@
 &lt;p&gt;‍‍
 That minus symbol in red is the group, and when collapsed all that is visible is the relevant output and table reference.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/08-groups-2.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/08-groups-2.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;screenshot from excel showing an expanded group with a combination of structure criteria in the left column and minimum FOS in the right column&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;break-things-up-across-sheets&quot;&gt;Break things up across sheets&lt;/h2&gt;
 &lt;p&gt;Another general practice I’ve adopted in excel is to try and keep information on a single sheet to what will fit on a single page.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/09-across-sheets.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/img/readability-in-excel/09-across-sheets.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;screenshot frome excel showing multiple sheet names in a workbook&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;I’ve found that if a calculation is getting longer than a single page, it is helpful to break it up into parts and use the sheet names to help make the calculation easier to navigate.&lt;/p&gt;
 
