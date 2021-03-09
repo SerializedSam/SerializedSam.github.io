@@ -3,10 +3,10 @@
   <channel>
     <title>Serialized Civil</title>
     <description>A blog dedicated to civil &amp; structual musings</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Feb 2021 19:14:03 -0500</pubDate>
-    <lastBuildDate>Sat, 27 Feb 2021 19:14:03 -0500</lastBuildDate>
+    <link>https://serializedcivil.com/</link>
+    <atom:link href="https://serializedcivil.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 08 Mar 2021 22:07:57 -0500</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 22:07:57 -0500</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -55,8 +55,8 @@
 
 </description>
         <pubDate>Sat, 27 Feb 2021 12:04:01 -0500</pubDate>
-        <link>/articles/21/what-is-lrfd</link>
-        <guid isPermaLink="true">/articles/21/what-is-lrfd</guid>
+        <link>https://serializedcivil.com/articles/21/what-is-lrfd</link>
+        <guid isPermaLink="true">https://serializedcivil.com/articles/21/what-is-lrfd</guid>
         
         <category>calculations</category>
         
@@ -146,8 +146,8 @@ That minus symbol in red is the group, and when collapsed all that is visible is
 &lt;p&gt;This also helps avoid producing spreadsheets which are very large and have inputs which can be missed if you don’t scroll over or down far enough to see relevant inputs. I’ll often have a summary tab, an inputs tab, sometimes a separate elevation input tab, and then relevant calculation tabs as required.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Feb 2021 16:48:01 -0500</pubDate>
-        <link>/articles/21/Improve-readability-in-excel</link>
-        <guid isPermaLink="true">/articles/21/Improve-readability-in-excel</guid>
+        <link>https://serializedcivil.com/articles/21/Improve-readability-in-excel</link>
+        <guid isPermaLink="true">https://serializedcivil.com/articles/21/Improve-readability-in-excel</guid>
         
         <category>excel</category>
         
@@ -246,8 +246,8 @@ A solid bag. One with pockets, pouches, or some other form of internal organizat
 
 </description>
         <pubDate>Sun, 14 Feb 2021 12:04:01 -0500</pubDate>
-        <link>/articles/21/What-to-pack-in-your-field-kit</link>
-        <guid isPermaLink="true">/articles/21/What-to-pack-in-your-field-kit</guid>
+        <link>https://serializedcivil.com/articles/21/What-to-pack-in-your-field-kit</link>
+        <guid isPermaLink="true">https://serializedcivil.com/articles/21/What-to-pack-in-your-field-kit</guid>
         
         <category>gear</category>
         
